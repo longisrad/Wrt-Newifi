@@ -52,7 +52,7 @@ CONFIG_PACKAGE_luci-proto-wireguard=y
 # Giao diện Theme (Giữ lại Neobird nếu bạn thích)
 CONFIG_PACKAGE_luci-theme-neobird=y
 
-# === TIỆN ÍCH HỆ THỐNG (CỰC KỲ KHUYÊN DÙNG) ===
+# === TIỆN ÍCH HỆ THỐNG ===
 CONFIG_PACKAGE_bash=y
 CONFIG_PACKAGE_curl=y
 CONFIG_PACKAGE_htop=y
@@ -65,3 +65,7 @@ CONFIG_PACKAGE_wol=y
 CONFIG_PACKAGE_libcurl=y
 CONFIG_PACKAGE_libstdcpp=y
 CONFIG_PACKAGE_zoneinfo-asia=y
+
+# === ÉP HỆ THỐNG TẮT TIẾNG TRUNG & CHỌN TIẾNG ANH LÀM MẶC ĐỊNH ===
+CONFIG_LUCI_LANG_en=y
+# CONFIG_LUCI_LANG_zh_Hans is not set
